@@ -55,6 +55,7 @@ The v5.0.0 module requires using the [2.12 version](https://github.com/terraform
 * Support for Intranode Visbiility (IV) and Veritical Pod Autoscaling (VPA) beta features [#216]
 * Support for Workload Identity beta feature [#234]
 * Support for Google Groups based RBAC beta feature [#217]
+* Support for local\_ssd\_count in node pool configuration [#244]
 * Support for disabling node pool autoscaling by setting `autoscaling` to `false` within the node pool variable. [#250]
 
 ### Fixed
@@ -245,6 +246,7 @@ In either case, upgrading to module version `v1.0.0` will trigger a recreation o
 [#238]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/238
 [#241]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/241
 [#250]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/250
+[#244]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/244
 [#236]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/236
 [#217]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/217
 [#234]: https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/234
