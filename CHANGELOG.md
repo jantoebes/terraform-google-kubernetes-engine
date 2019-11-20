@@ -14,6 +14,7 @@ Extending the adopted spec, each change should have a link to its corresponding 
 * Support for setting node_locations on node pools. [#303]
 * Fix for specifying  `node_count` on node pools when autoscaling is disabled. [#311]
 * Added submodule for installing Anthos Config Management. [#268]
+* Support for `local_ssd_count` in node pool configuration. [#244]
 
 ## [v5.1.1] - 2019-10-25
 
@@ -55,7 +56,6 @@ The v5.0.0 module requires using the [2.12 version](https://github.com/terraform
 * Support for Intranode Visbiility (IV) and Veritical Pod Autoscaling (VPA) beta features [#216]
 * Support for Workload Identity beta feature [#234]
 * Support for Google Groups based RBAC beta feature [#217]
-* Support for local\_ssd\_count in node pool configuration [#244]
 * Support for disabling node pool autoscaling by setting `autoscaling` to `false` within the node pool variable. [#250]
 
 ### Fixed
